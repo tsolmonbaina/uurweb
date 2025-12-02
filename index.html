@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <favicon href="eggylogo.png"></favicon>>
+    <title>ҮҮР товхимол</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto+Mono:wght@500&family=Roboto+Serif:wght@400&family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+           <!-- <div class="logo"><img src="Untitled design (2).png"></div> -->
+            <div><img src="eggylogo.png" alt="Website Logo" class="logo"></div>
+            <ul>
+                <li><a href="#" onclick="showPage('home')">Нүүр</a></li>
+                <li><a href="#" onclick="showPage('blogs')">Нийтлэлүүд</a></li>
+                <li><a href="#" onclick="showPage('about')">Бидний тухай</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="home" class="page active">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1>ҮҮР</h1>
+                <p>Монгол хэл дээрх шинжлэх ухаан, технологи, урлагийн товхимол</p>
+            </div>
+        </section>
+
+        <!-- Featured Posts -->
+        <section class="featured">
+            <div class="container">
+                <h2 class="section-title">ДУГААР 0: НУУЦ</h2>
+                <p class="section-subtitle">Та бүхэн таалан соёрхоно уу.</p>
+                <div class="featured-grid">
+                    <div class="post-card" onclick="window.location.href='#blog1'">
+                        <div class="post-image">📱</div>
+                        <div class="post-content">
+                            <h3 class="post-title">ХИЙМЭЛ ОЮУН УХААН</h3>
+                            <p class="post-excerpt">Exploring emerging trends in artificial intelligence, quantum computing, and their impact on our daily lives.</p>
+                            <a href="#blog1" class="read-more">Цааш унших →</a>
+                        </div>
+                    </div>
+                    <div class="post-card" onclick="window.location.href='#blog2'">
+                        <div class="post-image">🎨</div>
+                        <div class="post-content">
+                            <h3 class="post-title">ЖАЗЗ</h3>
+                            <p class="post-excerpt">Discover the fundamental principles that make great design stand out in a crowded digital landscape.</p>
+                            <a href="#blog2" class="read-more">Цааш унших →</a>
+                        </div>
+                    </div>
+                    <div class="post-card" onclick="window.location.href='#blog3'">
+                        <div class="post-image">🌍</div>
+                        <div class="post-content">
+                            <h3 class="post-title">СҮҮНИЙ ПАРАДОКС</h3>
+                            <p class="post-excerpt">Practical tips and strategies for reducing your environmental footprint and living more sustainably.</p>
+                            <a href="#blog3" class="read-more">Цааш унших →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Blogs Page -->
+    <div id="blogs" class="page">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="container">
+                    <h1></h1>
+                    <p></p>
+                </div>
+        <section class="blog-list">
+            <div class="container">
+                <h2 class="section-title">БҮХ НИЙТЛЭЛҮҮД</h2>
+                <p class="section-subtitle"></p>
+                
+                <div class="blog-item">
+                    <h3>The Future of Technology</h3>
+                    <div class="blog-date">November 15, 2024</div>
+                    <p class="post-excerpt">Exploring emerging trends in artificial intelligence, quantum computing, and their impact on our daily lives. As we stand on the cusp of a technological revolution, it's crucial to understand where we're heading.</p>
+                    <a href="#blog1" class="read-more">Цааш унших →</a>
+                </div>
+
+                <div class="blog-item">
+                    <h3>Creative Design Principles</h3>
+                    <div class="blog-date">November 10, 2024</div>
+                    <p class="post-excerpt">Discover the fundamental principles that make great design stand out in a crowded digital landscape. From typography to color theory, we cover it all.</p>
+                    <a href="#blog2" class="read-more">Цааш унших →</a>
+                </div>
+
+                <div class="blog-item">
+                    <h3>Sustainable Living Guide</h3>
+                    <div class="blog-date">November 5, 2024</div>
+                    <p class="post-excerpt">Practical tips and strategies for reducing your environmental footprint and living more sustainably in today's world. Small changes can make a big difference.</p>
+                    <a href="#blog3" class="read-more">Цааш унших →</a>
+                </div>
+
+                <div class="blog-item">
+                    <h3>Productivity Hacks for Remote Work</h3>
+                    <div class="blog-date">October 28, 2024</div>
+                    <p class="post-excerpt">Master the art of working from home with these proven strategies for maintaining focus, productivity, and work-life balance.</p>
+                    <a href="#blog4" class="read-more">Цааш унших →</a>
+                </div>
+
+                <div class="blog-item">
+                    <h3>The Art of Minimalism</h3>
+                    <div class="blog-date">October 20, 2024</div>
+                    <p class="post-excerpt">Learn how embracing minimalism can lead to a more focused, intentional, and fulfilling life both personally and professionally.</p>
+                    <a href="#blog5" class="read-more">Цааш унших →</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- About Page -->
+    <div id="about" class="page">
+        <section class="about">
+            <section class="hero">
+                <div class="container">
+                    <h1></h1>
+                    <p></p>
+                </div>
+            </section>
+            <div class="container">
+                <h1 class="section-title">  </h1>
+                <h2 class="section-title">БИДНИЙ ТУХАЙ</h2>
+                <p class="section-subtitle"></p>
+                <div class="about-content">
+                    <p>Welcome to our corner of the internet! This blog was created with a passion for sharing knowledge, inspiring creativity, and building a community of curious minds.</p>
+                    
+                    <p>We believe in the power of words to educate, entertain, and empower. Whether you're here to learn something new, find inspiration, or simply enjoy a good read, we're thrilled to have you as part of our journey.</p>
+                    
+                    <p>Our content spans various topics including technology, design, lifestyle, and personal development. Each article is crafted with care, research, and a genuine desire to provide value to our readers.</p>
+                    
+                    <p>Thank you for being here. We'd love to hear from you, so feel free to reach out and share your thoughts!</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ҮҮР</h3>
+                    <p>Сайн дурын монгол хэл дээрх шинжлэх ухаан, технологи, урлагийн товхимол.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>БУЛАНГУУД</h3>
+                    <a href="#" onclick="showPage('home')">Нүүр</a>
+                    <a href="#" onclick="showPage('blogs')">Бичвэрүүд</a>
+                    <a href="#" onclick="showPage('about')">Бидний тухай</a>
+                </div>
+                <div class="footer-section">
+                    <h3>БИДНИЙГ ДАГААРАЙ</h3>
+                    <a href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Email Us</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 он. Бүх бичвэрүүд зохиогчийн эрхээр хамгаалагдсан. Бичвэр, дүрслэлийг ашиглахдаа заавал эш татна.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function showPage(pageName) {
+            // Hide all pages
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.classList.remove('active'));
+            
+            // Show selected page
+            document.getElementById(pageName).classList.add('active');
+            
+            // Scroll to top
+            window.scrollTo(0, 0);
+        }
+    </script>
+</body>
+</html>
